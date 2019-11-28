@@ -18,7 +18,7 @@ Thu Nov 28 02:33:13 GMT 2019--><server>
 <httpEndpoint host="*" httpPort="9080" httpsPort="9443" id="defaultHttpEndpoint"/>
 <jdbcDriver id="Derby_JDBC_Provider_(XA)" javax.sql.DataSource="org.apache.derby.jdbc.EmbeddedXADataSource">
         <library>
-            <!-- <file name="${DERBY_JDBC_DRIVER_PATH}/derby.jar"/> --><file name="/config/lib/derby.jar"/>
+            <!-- <file name="${DERBY_JDBC_DRIVER_PATH}/derby.jar"/> --><file name="/opt/ibm/wlp/usr/shared/config/lib/global/derby.jar"/>
         </library>
     </jdbcDriver>
 <dataSource id="DefaultEJBTimerDataSource" jdbcDriverRef="Derby_JDBC_Provider_(XA)" jndiName="jdbc/DefaultEJBTimerDataSource">
